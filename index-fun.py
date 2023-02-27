@@ -7,6 +7,7 @@ def tablescan(searchterm):
     for i in range(len(words)):
       if words[i] == searchterm:
         print(f"tablescan found {searchterm} @ {i}")
+        break
   endtime = time.time()
   print('tablescan runtime', endtime - starttime)
 
