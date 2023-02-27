@@ -1,5 +1,5 @@
 # Indexing from scratch for fun
-Having benefitted from `CREATE INDEX` over many years' worth of webapp buildling, I realized I was kind of conceptualizing it as free performance pixie dust and hadn't implemented an index from scratch before. So when I randomly saw this [comment](https://news.ycombinator.com/item?id=30594233)° on the Orange Site I made a note to actually try it on a weekend as a miniproject. That weekend finally arrived! 🎉
+Having benefitted from `CREATE INDEX` over many years' worth of webapp buildling, I realized I was kind of conceptualizing it as free performance pixie dust and hadn't implemented an index from scratch before. So when I randomly saw this [comment](https://news.ycombinator.com/item?id=30604221)° on the Orange Site I made a note to actually try it on a weekend as a miniproject. That weekend finally arrived! 🎉
 
 So basically [index-fun.py](./index-fun.py) is the result of me attempting to build baby's first index in Python, plus a binary search slightly modified to accomodate my ugly "index" 🤡 file.
 The point was to take direct inspiration from how dead tree book indexes work - the text file is literally just a text file with sorted lines of
